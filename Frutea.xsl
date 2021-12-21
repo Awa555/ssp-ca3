@@ -88,7 +88,7 @@
 				</script>
 			</head>
 			<body>
-				<h2><img src="https://storage.cloud.google.com/myawabigbucket123/frutea_logo.png?authuser=1" alt="Frutea Logo" width="120px"/>Welcome to Frutea</h2>
+				<h2><img src="https://www.dropbox.com/s/4ff3l9dm8qg56e7/frutea_logo.png?dl=0" alt="Frutea Logo" width="120px"/>Welcome to Frutea</h2>
 				<p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button. Check the "Highlight Vegetarian Meals" box to highlight vegetarian dishes.</p>
 				<table id="menuTable" border="1" class="indent">
 					<thead>
@@ -132,7 +132,7 @@
 				<form class="indent">
 					<p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill"/>
                 Total: €
-                <input type="text" name="txtBillAmt"/><input type="checkbox" name="cbOpts" value="isVeg" id="showVeg"/><label for="showVeg">Highlight Vegetarian Meals</label></p>
+                <input type="text" name="txtBillAmt"/></p>
 				</form>
 			</body>
 		</html>

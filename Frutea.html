@@ -6,10 +6,10 @@
       <title>Frutea</title>
       <style>
 				body{font-family:Arial,Helvetica,sans-serif;background-color:#fff;margin:5px;text-align:left;color:#523819}
-				h2{font-size:140%;color:#0d3427;margin-top:10px}
-				p{font-size:80%;color:#523819}
-				table{background-color:#dacfe5;border-color:#000;border-width:thin;border-collapse:collapse;width:75%}
-				th{border-color:#000;font-size:120%;color:#0d3427}
+				h2{font-size:300%;color:#181818;margin-top:10px}
+				p{font-size:100%;color:#181818}
+				table{background-color:#e4e4e4;border-color:#000;border-width:thin;border-collapse:collapse;width:75%}
+				th{border-color:#000;font-size:120%;color:#181818}
 				td{border-color:#000;font-size:100%;color:#523819;padding:5px}
 				img{float:left;margin-left:10px;margin-right:10px;border:0}
 				.indent{margin-left:78px}
@@ -84,8 +84,9 @@
 				}); 
 				</script></head>
    <body>
-      <h2><img src="https://storage.cloud.google.com/myawabigbucket123/frutea_logo.png?authuser=1" alt="Frutea Logo" width="120px">Welcome to Frutea</h2>
-      <p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button. Check the "Highlight Vegetarian Meals" box to highlight vegetarian dishes.</p>
+      <div><img src="https://www.dropbox.com/s/4ff3l9dm8qg56e7/frutea_logo.png?dl=0" alt="Frutea Logo" width="120px"></div>
+      <h2>Welcome to Frutea</h2>
+      <p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button.</p>
       <table id="menuTable" border="1" class="indent">
          <thead>
             <tr>
@@ -193,7 +194,7 @@
       <form class="indent">
          <p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill">
                 Total: €
-                <input type="text" name="txtBillAmt"><input type="checkbox" name="cbOpts" value="isVeg" id="showVeg"><label for="showVeg">Highlight Vegetarian Meals</label></p>
+                <input type="text" name="txtBillAmt"></p>
       </form>
    </body>
 </html>
