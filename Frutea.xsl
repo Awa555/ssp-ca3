@@ -6,12 +6,12 @@
 			<head>
 				<title>Frutea</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-				<link rel="stylesheet" href="css/Frutea.css">
-				<script type="text/javascripte" src="js/Frutea.js">x</script>
+				<link rel="stylesheet" href="css/Frutea.css" />
+				<script type="text/javascript" src="js/Frutea.js">x</script>
 			</head>
 			<body>
 				<h2><img src="img/frutea_logo.png" alt="Frutea Logo" width="120px"/>Welcome to Frutea</h2>
-				<p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button. Check the "Highlight Vegetarian Meals" box to highlight vegetarian dishes.</p>
+				<p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button.</p>
 				<table id="menuTable" border="1" class="indent">
 					<thead>
 						<tr>
