@@ -11,7 +11,7 @@ const   router = express(),  // Create an instance of express
 
 router.use(express.static(path.resolve(__dirname,'views'))); // We serve static content from "views" folder
 
-router.get('/', function(req, res) { // Create an instance of the http server to handle HTTP requests
+router.get('/get/html', function(req, res) { // Create an instance of the http server to handle HTTP requests
 
     res.writeHead(200, {'Content-Type' : 'text/html'}); // Set a response type of plain text. Tell browser that content is html
 
