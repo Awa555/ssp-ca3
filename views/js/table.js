@@ -1,3 +1,5 @@
+// Below of code has been sourced from the lecturer Mikhail class teaching
+
 function draw_table(){
     $("#results").empty();
     $.getHTMLuncached = function(url) {

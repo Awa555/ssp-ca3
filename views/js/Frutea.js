@@ -1,3 +1,5 @@
+// Below of code has been sourced from the lecturer Mikhail class teaching
+
 var gEntreeCount = 0;
 // returns a number that represents the sum of all the selected menu
 // item prices.
