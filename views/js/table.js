@@ -1,4 +1,4 @@
-// Below of code has been sourced from the lecturer Mikhail class teaching. https://github.com/mikhail-cct/ssp-practical
+// Below of code has been sourced from the lecturer Mikhail Timofeev class teaching. https://github.com/mikhail-cct/ssp-practical
 
 function draw_table()
 {

@@ -1,4 +1,4 @@
-// Below of code has been sourced from the lecturer Mikhail class teaching. https://github.com/mikhail-cct/ssp-practical
+// Below of code has been sourced from the lecturer Mikhail Timofeev class teaching. https://github.com/mikhail-cct/ssp-practical
 
 var gEntreeCount = 0;
 // returns a number that represents the sum of all the selected menu

@@ -1,4 +1,4 @@
-// Below of code has been sourced from the lecturer Mikhail class teaching. https://github.com/mikhail-cct/ssp-practical
+// Below of code has been sourced from the lecturer Mikhail Timofeev class teaching. https://github.com/mikhail-cct/ssp-practical
 
 const   http = require('http'), //This module provides the HTTP server functionalities
         path = require('path'), //The path module provides utilities for working with file and directory paths
