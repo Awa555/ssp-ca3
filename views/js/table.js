@@ -20,6 +20,7 @@ function draw_table()
 	$.getJSONuncached("/get/html")
 };
 
+// Turn on the row highlighting for select items
 function select_row()
 {
 	$("#menuTable tbody tr[id]").click(function ()
@@ -32,6 +33,7 @@ function select_row()
 	})
 };
 
+// Delete the row highlighting for select items
 function delete_row(sec, ent)
 {
 	$("#delete").click(function ()

@@ -12,8 +12,8 @@ const   router = express(),  // Create an instance of express
         server = http.createServer(router); // Create an instance for the server to start running
 
 router.use(express.static(path.resolve(__dirname,'views'))); // We serve static content from "views" folder
-router.use(express.urlencoded({extended: true})); //We allow the data sent from the client to be encoded in a URL targeting our end point
-router.use(express.json()); //We include support for JSON
+router.use(express.urlencoded({extended: true})); // We allow the data sent from the client to be encoded in a URL targeting our end point
+router.use(express.json()); // We include support for JSON
 
 // Function to read in XML file and convert it to JSON
 function XMLtoJSON(filename, cb) {
@@ -24,7 +24,7 @@ function XMLtoJSON(filename, cb) {
     });
 };
   
-//Function to convert JSON to XML and save it
+// Function to convert JSON to XML and save it
 function JSONtoXML(filename, obj, cb) {
     var filepath = path.normalize(path.join(__dirname, filename));
     var builder = new xml2js.Builder();
@@ -49,6 +49,7 @@ router.get('/get/html', function(req, res) { // Create an instance of the http s
 
 });
 
+// Additional JSON
 router.post('/post/json', function (req, res) {
 
     function appendJSON(obj) {
@@ -58,7 +59,7 @@ router.post('/post/json', function (req, res) {
         XMLtoJSON('Frutea.xml', function (err, result) {
             if (err) throw (err);
             
-            result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price});
+            result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price}); // Add items
 
             console.log(JSON.stringify(result, null, "  "));
 
@@ -74,6 +75,7 @@ router.post('/post/json', function (req, res) {
 
 });
 
+// Delete JSON
 router.post('/post/delete', function (req, res) {
 
     function deleteJSON(obj) {
@@ -83,7 +85,7 @@ router.post('/post/delete', function (req, res) {
         XMLtoJSON('Frutea.xml', function (err, result) {
             if (err) throw (err);
             
-            delete result.menu.section[obj.section].entry[obj.entree];
+            delete result.menu.section[obj.section].entry[obj.entree]; // Delete itmes
 
             console.log(JSON.stringify(result, null, "  "));
 
