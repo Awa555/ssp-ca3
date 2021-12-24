@@ -28,19 +28,19 @@ function calculateBill(idMenuTable) {
     // return the price as a decimal number with 2 decimal places
     return Math.round(fBillTotal * 100.0) / 100.0;
 };
-// This function either turns on or off the row highlighting for vegetarian
+// This function either turns on or off the row highlighting for special offer
 // items (depending on the value of bShowVeg)
 function highlightVegetarian(idTable, bShowVeg) {
-    // if bShowVeg is true, then we're highlighting vegetarian
+    // if bShowVeg is true, then we're highlighting special offer
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
     var oTable = document.getElementById(idTable);
     var oTBODY = oTable.getElementsByTagName('TBODY')[0];
     var aTRs = oTBODY.getElementsByTagName('TR');
     // walk through each of the table rows and see if it has a 
-    // "vegetarian" attribute on it.
+    // "special offer" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('vegetarian') && aTRs[i].getAttribute('vegetarian') == "true") {
+        if (aTRs[i].getAttribute('specialoffer') && aTRs[i].getAttribute('specialoffer') == "true") {
             if (bShowVeg) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {

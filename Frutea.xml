@@ -1,73 +1,73 @@
-<?xml version = "1.0" encoding = "UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-    <section name="Frutea">
-        <entry>
-            <item>Pink Surprise</item>
-            <price>4.80</price>
-        </entry>
-        <entry>
-            <item>Hawaiian Hug</item>
-            <price>4.80</price>
-        </entry>
-        <entry>
-            <item>Red Rose</item>
-            <price>4.80</price>
-        </entry>
-    </section>
-    <section name="Milk Tea">
-        <entry>
-            <item>Bubble Tea</item>
-            <price>4.50</price>
-        </entry>
-        <entry>
-            <item>Oreo Milk Tea</item>
-            <price>4.50</price>
-        </entry>
-        <entry>
-            <item>Matcha Mile Tea</item>
-            <price>4.50</price>
-        </entry>
-    </section>
-    <section name="Fresh Fruit Yogurt">
-        <entry>
-            <item>Strawberry Yogurt</item>
-            <price>4.50</price>
-        </entry>
-        <entry>
-            <item>Mango Yogurt</item>
-            <price>4.50</price>
-        </entry>
-        <entry>
-            <item>Passion Fruit Yogurt</item>
-            <price>4.50</price>
-        </entry>
-    </section>
-    <section name="Smoothie">
-        <entry>
-            <item>Strawberry Sunrise</item>
-            <price>4.80</price>
-        </entry>
-        <entry>
-            <item>Mango Melody</item>
-            <price>4.80</price>
-        </entry>
-        <entry>
-            <item>Pineapple Burst</item>
-            <price>4.80</price>
-        </entry>
-    </section>
-    <section name="Bubble Waffle">
-        <entry>
-            <item>Strawberry Bubble Waffle</item>
-            <price>5.80</price>
-        </entry>
-        <entry>
-            <item>Oreo Bubble Waffle</item>
-            <price>5.80</price>
-        </entry>
-        <entry>
-            <item>Banana Bubble Waffle</item>
-            <price>5.80</price>
-        </entry>
-    </section>
+  <section name="Frutea">
+    <entry>
+      <item>Pink Surprise</item>
+      <price>4.80</price>
+    </entry>
+    <entry>
+      <item>Hawaiian Hug</item>
+      <price>4.80</price>
+    </entry>
+    <entry specialoffer="true">
+      <item>Red Rose</item>
+      <price>4.00</price>
+    </entry>
+  </section>
+  <section name="Milk Tea">
+    <entry>
+      <item>Bubble Tea</item>
+      <price>4.50</price>
+    </entry>
+    <entry>
+      <item>Oreo Milk Tea</item>
+      <price>4.50</price>
+    </entry>
+    <entry specialoffer="true">
+      <item>Matcha Mile Tea</item>
+      <price>4.00</price>
+    </entry>
+  </section>
+  <section name="Fresh Fruit Yogurt">
+    <entry>
+      <item>Strawberry Yogurt</item>
+      <price>4.50</price>
+    </entry>
+    <entry>
+      <item>Mango Yogurt</item>
+      <price>4.50</price>
+    </entry>
+    <entry specialoffer="true">
+      <item>Passion Fruit Yogurt</item>
+      <price>4.00</price>
+    </entry>
+  </section>
+  <section name="Smoothie">
+    <entry>
+      <item>Strawberry Sunrise</item>
+      <price>4.80</price>
+    </entry>
+    <entry>
+      <item>Mango Melody</item>
+      <price>4.80</price>
+    </entry>
+    <entry specialoffer="true">
+      <item>Pineapple Burst</item>
+      <price>4.00</price>
+    </entry>
+  </section>
+  <section name="Bubble Waffle">
+    <entry>
+      <item>Strawberry Bubble Waffle</item>
+      <price>5.80</price>
+    </entry>
+    <entry>
+      <item>Oreo Bubble Waffle</item>
+      <price>5.80</price>
+    </entry>
+    <entry specialoffer="true">
+      <item>Banana Bubble Waffle</item>
+      <price>5.00</price>
+    </entry>
+  </section>
 </menu>

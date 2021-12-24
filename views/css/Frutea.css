@@ -45,3 +45,13 @@ th {
             background-color: #dc3545;
             color: #FFF;
 }
+
+.headBg {
+    background-color: #575757;
+    color: #FFF;
+}
+
+.titleBg {
+    background-color: #ebebeb;
+    font-weight: bolder;
+}
