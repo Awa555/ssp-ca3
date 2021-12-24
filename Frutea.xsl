@@ -21,7 +21,8 @@
 				</tr>
 				<!-- Go to every entry and loop it. -->
 				<xsl:for-each select="entry">
-					<tr id="{position()}">
+					<!-- Position for each table -->
+					<tr id="{position()}"> 
 						<td align="center">
 							<input name="item0" type="checkbox" />
 						</td>
